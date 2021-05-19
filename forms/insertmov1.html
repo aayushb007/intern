@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<title>Image Upload</title>
+</head><body>
+    <div class="text-center"><h1>Upload Script</h1></div>
+
+<form method="POST" action="./insertmov1.php" enctype="multipart/form-data" class="p-5 bg-white">
+	  
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="name"> Id:</label>
+                  <input type="text" id="name" name="id" class="form-control">
+                </div>
+              </div>
+                <div class="col-md-12">
+                  <label class="text-black" for="name"> Name:</label>
+                  <input type="text" id="name" name="name" class="form-control">
+                </div>
+              </div>
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  <label class="text-black" for="about"> About:</label>
+                  <input type="text" id="name" name="about" class="form-control">
+                </div>
+              </div>
+              
+                            <div class="row form-group">
+                
+                <div class="col-md-6">
+                  
+                  <label class="text-black" for="sel1" name="category">Category</label>
+                    <select class="form-control" id="sel1" name="category">
+                        <option value="Action">Action</option>
+                        <option value="Comedy">Comedy</option>
+                        <option value="Thriller">Thriller</option>
+                        <option value="Romantic">Romantic</option>
+                       <option value="Biography">Biography</option>
+                    </select>
+                </div></div>
+                  <div class="col-md-12">
+                  <label class="text-black" for="rate">rate</label>
+                  <input type="text" id="cast" name="rate" rows="5" class="form-control">
+                </div>
+              </div>
+
+      <div class="row form-group">
+		  <div class="col-sm-10">
+                  <label class="text-black" for="file">Image</label> 
+	              <input type="file" name="uploadfile" value="" class="form-control"/>
+	    </div>	</div>
+         <div class="row form-group">
+      <div class="col-sm-10">
+                  <label class="text-black" for="date">Released Date</label> 
+                <input type="date" name="date" value="" class="form-control"/>
+      </div>  </div>
+	<div class="row form-group">
+		 <div class="col-sm-10">
+		<button type="submit" name="upload" class="btn btn-primary py-2 px-4 ">UPLOAD</button>
+		 </div>
+		</div>
+
+</form>
+
+</body>
+</html>
+<!--<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Login</title>
+  </head>
+  <body>
+             <div class="text-center"><h1>Upload Script</h1></div>
+     <form type="POST" action="./upload.php" class="p-5 bg-white" enctype="multipart/form-data">
+            
+              <div class="row form-group">
+                
+                <div class="col-sm-10">
+                  <label class="text-black" for="file">In Pdf Format</label> 
+                  <input type="file" id="file" name="uploadfile"  value="" class="form-control">
+                </div>
+              </div>
+
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" name="upload" value="Send Script" class="btn btn-primary py-2 px-4 text-white">
+
+                 </div>
+              </div>
+
+  
+            </form>
+          
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>-->
